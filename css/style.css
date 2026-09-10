@@ -1,0 +1,106 @@
+body {
+
+    font-family: sans-serif;             /*  here if you put text-align tag it will center the text and inehrited by tag inside body except where explicitly overridden by the tag which has other specific order in that specific tag */
+    text-align: center;
+   background: linear-gradient(90deg,
+   #ffffff,  
+   #000000) top / 100% 50% no-repeat,                                           
+   
+   linear-gradient(90deg, #a6a6a6 ,#ffffff ) bottom / 100% 50% no-repeat;
+   
+   /* 100 percent indicates width covered by gradient 
+   and 50 percent indicates height 
+   covered by gradient and top means 
+   it is for top part */
+   
+}
+
+h1 {
+   color: black;
+   text-align: center;
+   font-family: 'Brick Sans', sans-serif;
+   margin-top: 10px;
+   font-size: 50.9px;
+   width: 621.4px;
+   height: 137.4px;
+  
+   transform: translate(372.3px, 32.4px);
+   font-size: 6.5rem;
+}
+
+
+footer {
+  
+  background-color: #1f6760;
+  color: #ffffff;
+
+}
+
+.nav {
+  text-align: center;
+  margin-left: 80px; 
+  
+}
+
+.Next {
+  position: absolute;
+  top: 600px;
+  left: 550px;
+}
+
+.Previous {
+  position: absolute;
+  top: 600px;
+  left: 200px;
+  transform: rotate(180deg);
+}
+.Next img {
+  width: 50px;
+  height: auto;
+  
+   
+ 
+}
+
+.Previous img {
+  width: 50px;
+  height: auto;
+}
+
+
+.track-container {
+  position: relative;
+
+  width: 696.3px;
+  height: 728.3px;
+  margin-top: 350px;
+  margin-left: 600px;
+
+}
+.track {
+  
+    width: 100%;
+    height: 100%;
+}
+
+.track-midpoint {
+  
+  width: 420.3px;
+  height: 519.9px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Play {
+  position: absolute;
+  top: 600px;
+  left: 375px;
+  
+}
+
+.Play img {
+  width: 50px;
+  height: auto;
+}
