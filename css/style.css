@@ -102,5 +102,30 @@ footer {
 
 .Play img {
   width: 50px;
+
+  height: auto;
+}
+
+.playlist-name {
+  position: absolute;
+  top: 620px;
+  left: 285px;
+  
+  font-family: 'Brick Sans';
+  font-size: 55px;
+}
+
+.nav h4 {
+  font-family: 'Brick Sans', sans-serif;
+ 
+  font-size: 55px;
+  
+}
+
+.line {
+  position: absolute;
+  top: 500px;
+  left: 230px;
+  width: 350px;
   height: auto;
 }
